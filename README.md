@@ -5,7 +5,7 @@ This dataset was collected by the VLSI Laboratory at the School of Electronic Sc
 
 ## Dataset Description
 - Sampling frequency：48kHz(from DJI mic)
-- Speaker number：eight speakers，from 001 to 008
+- Speaker number：eight speakers，from 001 to 009
 - Each speaker repeated each keyword 30 times, with utterances spaced at 3-second intervals.  
 - Each recording is named using the convention: postset_speakerid_keywordid_num  
     - Example: For speaker 3 saying the keyword "happy," the file is named: Postset_003_013.wav
