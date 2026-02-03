@@ -1,15 +1,16 @@
 # Introduction of NJUD -- Nanjing University Speech Command Dataset
 
 ## Abstract
+
 This dataset was collected by the VLSI Laboratory at the School of Electronic Science and Engineering, Nanjing University. The data sources were randomly selected students within the laboratory. The aim is to augment localized Chinese user data on the basis of the GSCD Google dataset. It can be used for tasks such as fine-tuning or transfer learning in keyword spotting (KWS).
 
 ## Dataset Description
+
 - Sampling frequency：48kHz(from DJI mic)
 - Speaker number：eight speakers，from 001 to 009
 - Each speaker repeated each keyword 30 times, with utterances spaced at 3-second intervals.  
 - Each recording is named using the convention: postset_speakerid_keywordid_num  
-    - Example: For speaker 3 saying the keyword "happy," the file is named: Postset_003_013.wav
-
+  - Example: For speaker 3 saying the keyword "happy," the file is named: Postset_003_013.wav
 Here are the keywords and their corresponding codes. All keywords are from the Google Speech Commands dataset.
 
 | Keyword      | Keyword-to-code|  Keyword   | Keyword-to-code|
@@ -34,4 +35,5 @@ Here are the keywords and their corresponding codes. All keywords are from the G
 | zero         | 035            |            |                |
 
 ## File Description
+
 The files are organized and stored according to the speaker ID, located under `dataset_kws_vlsi/00x`. Each audio file contains multiple repetitions of a specific keyword spoken by a given speaker. The utterances are spaced approximately 3 seconds apart, allowing for segmentation and extraction of individual repetitions.
